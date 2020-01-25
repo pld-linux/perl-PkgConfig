@@ -3,7 +3,6 @@
 %bcond_without	tests		# do not perform "make test"
 #
 %define		pdir	PkgConfig
-%include	/usr/lib/rpm/macros.perl
 Summary:	PkgConfig - Pure-Perl Core-Only replacement for pkg-config
 Summary(pl.UTF-8):	PkgConfig - czysto perlowy zamiennik programu pkg-config
 Name:		perl-PkgConfig
