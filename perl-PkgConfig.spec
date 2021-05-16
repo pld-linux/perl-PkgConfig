@@ -6,17 +6,18 @@
 Summary:	PkgConfig - Pure-Perl Core-Only replacement for pkg-config
 Summary(pl.UTF-8):	PkgConfig - czysto perlowy zamiennik programu pkg-config
 Name:		perl-PkgConfig
-Version:	0.16026
+Version:	0.25026
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/P/PL/PLICEASE/PkgConfig-%{version}.tar.gz
-# Source0-md5:	ae468afd4e21967aa121f748a5329621
-URL:		http://search.cpan.org/dist/PkgConfig/
+# Source0-md5:	1f6e26df235d3aa6123a8f1849cd1903
+URL:		https://metacpan.org/release/PkgConfig
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.56
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 %if %{with tests}
 BuildRequires:	perl-Test-Simple >= 0.94
 %endif
